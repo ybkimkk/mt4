@@ -1,0 +1,1 @@
+D:/UPUPW_AP5.6_32/PHP5/php.exe -q D:/web/mt4/api/sale/sale.php

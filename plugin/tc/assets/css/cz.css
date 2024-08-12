@@ -1,0 +1,19 @@
+.line-txt span {display: block;position: relative;.fs(14);text-align: center;font-size:1.5rem; font-weight:bold;}
+.line-txt span:before, .line-txt span:after {content: '';position: absolute;top: 50%;background: #8c8c8c;width: 30%;height: 1px;}
+.line-txt span:before {left: 8%;}
+.line-txt span:after {right: 8%;}
+body{font-size:1.25rem;}
+.cz-tfonts{font-size:1.5rem; font-weight:bold;}
+.cz-dflh{line-height:190%;}
+img{max-width:100%;}
+.cz-tentxt{text-align:center;color:#1f1f1f; margin:20px 0 10px 0;}
+.cz-tsubtxt{text-align:center;color:#1f1f1f; margin:10px 0 10px 0;}
+.cz-tcolorr{text-align:center;color:#ff0000;}
+.cz-stxt{font-size:1rem;color:#727272; padding:20px 20px 0 20px;}
+.cz-stxt1{font-size:1rem;color:#727272; padding:10px 0 10px 0;}
+
+.footer{font-size:1rem;}
+.footer a{color:#ffffff;}
+
+.ta-btn1{background-color:#ed1b24;padding:10px;color:#ffffff;border-radius:20px;font-size:1rem;}
+.ta-btn1:hover{color:#ffffff;}

@@ -1,0 +1,60 @@
+<?php
+$PAYLANG['en']['_温馨提示内容'] = 'The transfer is successful, please save the relevant transfer vouchers to protect your legal rights and interests; <br>';
+
+$PAYLANG['en']['_汇款条款内容'] = '1. I have confirmed the amount of the transaction; <br>
+                 2. I confirm that the account name of the remittance is true and valid; <br>
+                 3. I confirm that the transaction funds are obtained from legal sources, and if illegally obtained I will bear all responsibilities. <br>';
+
+$PAYLANG['en']['抱歉，请输入打款户名'] = 'Sorry, please enter the account name';
+$PAYLANG['en']['抱歉，请选择银行'] = 'Sorry, please select a bank';
+$PAYLANG['en']['USDT转账'] = 'USDT transfer';
+$PAYLANG['en']['请确定收款信息及订单信息后提交'] = 'Please confirm the payment information and order information and submit';
+$PAYLANG['en']['订单信息'] = 'order information';
+$PAYLANG['en']['特约商户'] = 'special supplier';
+$PAYLANG['en']['金额'] = 'Amount';
+$PAYLANG['en']['订单号'] = 'Order Number';
+$PAYLANG['en']['交易时间'] = 'Trading Time';
+$PAYLANG['en']['收款户名'] = 'Receiving Account Name';
+$PAYLANG['en']['银行名称'] = 'Bank Name';
+$PAYLANG['en']['银行支行'] = 'Bank Branch';
+$PAYLANG['en']['收款账号'] = 'Receiving Account Number';
+$PAYLANG['en']['温馨提示'] = 'Warm Tips';
+$PAYLANG['en']['打款户名'] = 'Daily Account Name';
+$PAYLANG['en']['打款银行'] = 'Pay Bank';
+$PAYLANG['en']['提交时间'] = 'Submit Time';
+$PAYLANG['en']['转账识别码'] = 'Transfer Identification Code';
+$PAYLANG['en']['请您在打款时务必在备注栏填入此识别码'] = 'Please fill in this identification code in the remarks column when making a payment';
+$PAYLANG['en']['③转账完毕，提交审核'] = '③The transfer is complete, submit for review';
+$PAYLANG['en']['倒计时'] = 'Countdown';
+$PAYLANG['en']['分'] = 'minute';
+$PAYLANG['en']['秒'] = 'sec';
+$PAYLANG['en']['请在倒计时结束前完成转账动作，请在转账完成后截图并上传提交。'] = 'Please complete the transfer before the end of the countdown. Please take a screenshot and upload it after the transfer is completed.';
+$PAYLANG['en']['已超时'] = 'Timed out';
+$PAYLANG['en']['汇款户名'] = 'Remittance Account Name';
+$PAYLANG['en']['请输入汇款户名'] = 'Please enter the remittance account name';
+$PAYLANG['en']['请选择在线银行'] = 'Please select an online bank';
+$PAYLANG['en']['汇款条款'] = 'Remittance Terms';
+$PAYLANG['en']['我已阅读并同意以上使用条款'] = 'I have read and agree to the above terms of use';
+$PAYLANG['en']['下一步'] = 'Next';
+$PAYLANG['en']['请选择银行'] = 'Please select bank';
+$PAYLANG['en']['请阅读并同意使用条款'] = 'Please read and agree to the terms of use';
+$PAYLANG['en']['支付信息'] = 'Payment Information';
+$PAYLANG['en']['收款地址'] = 'Collection account';
+$PAYLANG['en']['复制'] = 'Copy';
+$PAYLANG['en']['②点击选择我的截图'] = '②Click to select my screenshot';
+$PAYLANG['en']['①复制'] = '①Copy';
+$PAYLANG['en']['复制成功'] = 'Copy successfully';
+$PAYLANG['en']['复制失败，请手工选择后复制'] = 'Copy failed, please select manually and copy';
+$PAYLANG['en']['上传转账截图'] = 'Upload a screenshot of the transfer';
+$PAYLANG['en']['提示'] = 'Prompt';
+$PAYLANG['en']['您的支付信息已经提交，请等待审核'] = 'Your payment information has been submitted, please wait for review';
+$PAYLANG['en']['抱歉，请上传转账截图'] = 'Please upload a screenshot of the transfer';
+$PAYLANG['en']['抱歉，转账截图：'] = 'Screenshot of transfer:';
+$PAYLANG['en']['格式错误'] = 'Wrong format';
+$PAYLANG['en']['保存失败'] = 'Save failed';
+$PAYLANG['en']['数据解析出错'] = 'Data parsing error';
+$PAYLANG['en']['USDT交易ID'] = 'USDT transaction ID';
+$PAYLANG['en']['抱歉，请填写USDT交易ID'] = 'Please fill in USDT transaction ID';
+$PAYLANG['en']['交易ID不是必须填写，但是填写交易ID可以加快审核速度。'] = ' Transaction ID is not required, but it can speed up the audit. ';
+$PAYLANG['en']['您的实际转账金额'] = ' Your actual transfer amount ';
+$PAYLANG['en']['转账会有{0} USDT的手续费，请注意实际到账数量。比如：你实际支付{1}美金，那你需要转{2}美金'] = '  There will be a handling charge of {0} usdt for the transfer. Please pay attention to the actual amount received. For example, if you actually pay ${1}, you need to transfer ${2}';

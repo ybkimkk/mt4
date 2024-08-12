@@ -1,0 +1,60 @@
+<?php
+$PAYLANG['vn']['_温馨提示内容'] = 'Sau khi chuyển khoản thành công vui lòng lưu các chứng từ chuyển khoản liên quan để bảo vệ lợi ích hợp pháp của bạn<br>';
+
+$PAYLANG['vn']['_汇款条款内容'] = '1. Tôi đã xác nhận số tiền của giao dịch; <br>
+                 2. Tôi xác nhận rằng tên tài khoản chuyển tiền là đúng và hợp lệ; <br>
+                 3. Tôi xác nhận rằng các quỹ giao dịch được lấy từ các nguồn hợp pháp và nếu có được bất hợp pháp, tôi sẽ chịu mọi trách nhiệm. <br>';
+
+$PAYLANG['vn']['抱歉，请输入打款户名'] = 'Xin lỗi, vui lòng nhập tên tài khoản';
+$PAYLANG['vn']['抱歉，请选择银行'] = 'Xin lỗi, vui lòng chọn một ngân hàng';
+$PAYLANG['vn']['USDT转账'] = 'Chuyển khoản USDT';
+$PAYLANG['vn']['请确定收款信息及订单信息后提交'] = 'Vui lòng xác nhận thông tin thanh toán  và thông tin tài khoản ví của bạn trước khi chuyển khoản';
+$PAYLANG['vn']['订单信息'] = 'Thông tin thanh toán';
+$PAYLANG['vn']['特约商户'] = 'nhà cung cấp đặc biệt';
+$PAYLANG['vn']['金额'] = 'Số tiền';
+$PAYLANG['vn']['订单号'] = 'Mã đơn hàng';
+$PAYLANG['vn']['交易时间'] = 'Thời gian giao dịch';
+$PAYLANG['vn']['收款户名'] = 'Nhận tên tài khoản';
+$PAYLANG['vn']['银行名称'] = 'Tên ngân hàng';
+$PAYLANG['vn']['银行支行'] = 'Chi nhánh ngân hàng';
+$PAYLANG['vn']['收款账号'] = 'Nhận số tài khoản';
+$PAYLANG['vn']['温馨提示'] = 'Lưu ý';
+$PAYLANG['vn']['打款户名'] = 'Tên tài khoản hàng ngày';
+$PAYLANG['vn']['打款银行'] = 'Ngân hàng thanh toán';
+$PAYLANG['vn']['提交时间'] = 'Gửi thời gian';
+$PAYLANG['vn']['转账识别码'] = 'ID chuyển';
+$PAYLANG['vn']['请您在打款时务必在备注栏填入此识别码'] = 'Vui lòng điền mã nhận dạng này vào cột nhận xét khi thanh toán';
+$PAYLANG['vn']['③转账完毕，提交审核'] = '③Quá trình chuyển giao hoàn tất, hãy gửi để xem xét';
+$PAYLANG['vn']['倒计时'] = 'Còn lại';
+$PAYLANG['vn']['分'] = 'phút';
+$PAYLANG['vn']['秒'] = 'giây';
+$PAYLANG['vn']['请在倒计时结束前完成转账动作，请在转账完成后截图并上传提交。'] = 'Vui lòng hoàn tất quá trình chuyển khoản trước khi thời gian kết thúc, đồng thời chụp màn hình và tải lên chứng từ sau khi thao tác chuyển khoản hoàn tất.';
+$PAYLANG['vn']['已超时'] = 'Đã hết thời gian';
+$PAYLANG['vn']['汇款户名'] = 'Tên tài khoản chuyển tiền';
+$PAYLANG['vn']['请输入汇款户名'] = 'Vui lòng nhập tên tài khoản chuyển tiền';
+$PAYLANG['vn']['请选择在线银行'] = 'Vui lòng chọn một ngân hàng trực tuyến';
+$PAYLANG['vn']['汇款条款'] = 'Điều khoản chuyển tiền';
+$PAYLANG['vn']['我已阅读并同意以上使用条款'] = 'Tôi đã đọc và đồng ý với các điều khoản sử dụng ở trên';
+$PAYLANG['vn']['下一步'] = 'Bước tiếp theo';
+$PAYLANG['vn']['请选择银行'] = 'Vui lòng chọn ngân hàng';
+$PAYLANG['vn']['请阅读并同意使用条款'] = 'Vui lòng đọc và đồng ý với các điều khoản sử dụng';
+$PAYLANG['vn']['支付信息'] = 'Thông tin thanh toán';
+$PAYLANG['vn']['收款地址'] = 'Mã ví usdt';
+$PAYLANG['vn']['复制'] = 'Rõ';
+$PAYLANG['vn']['②点击选择我的截图'] = '②Nhấp để chọn ảnh chụp màn hình của tôi';
+$PAYLANG['vn']['①复制'] = '①sao chép';
+$PAYLANG['vn']['复制成功'] = 'Sao chép thành công';
+$PAYLANG['vn']['复制失败，请手工选择后复制'] = 'Sao chép không thành công, vui lòng chọn thủ công và sao chép';
+$PAYLANG['vn']['上传转账截图'] = 'Tải lên ảnh chụp màn hình của quá trình chuyển khoản';
+$PAYLANG['vn']['提示'] = 'lời nhắc';
+$PAYLANG['vn']['您的支付信息已经提交，请等待审核'] = 'Thông tin thanh toán của bạn đã được gửi, vui lòng chờ xem xét';
+$PAYLANG['vn']['抱歉，请上传转账截图'] = 'Xin lỗi, vui lòng tải lên ảnh chụp màn hình của quá trình chuyển tiền';
+$PAYLANG['vn']['抱歉，转账截图：'] = 'Ảnh chụp màn hình chuyển khoản:';
+$PAYLANG['vn']['格式错误'] = 'sai định dạng';
+$PAYLANG['vn']['保存失败'] = 'Lưu không thành công';
+$PAYLANG['vn']['数据解析出错'] = 'Lỗi phân tích cú pháp dữ liệu';
+$PAYLANG['vn']['USDT交易ID'] = ' ID giao dịch ';
+$PAYLANG['vn']['抱歉，请填写USDT交易ID'] = ' Xin hãy điền mã số giao dịch dùng. ';
+$PAYLANG['vn']['交易ID不是必须填写，但是填写交易ID可以加快审核速度。'] = 'ID giao dịch không bắt buộc,  nhưng điền ID sẽ giúp quá trình kiểm duyệt nhanh hơn';
+$PAYLANG['vn']['您的实际转账金额'] = ' Số tiền thực sự chuyển ';
+$PAYLANG['vn']['转账会有{0} USDT的手续费，请注意实际到账数量。比如：你实际支付{1}美金，那你需要转{2}美金'] = 'Phí chuyển khoản {0} usdt. Vui lòng lưu ý số usdt thực tế khi chuyển. ví dụ bạn cần thanh toán {1} usdt , thì bạn cần chuyển {2} usdt.';

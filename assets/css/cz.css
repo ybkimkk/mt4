@@ -1,0 +1,32 @@
+@media (max-width:767.98px) {
+ li.paginate_button {
+  display:inline-block;
+ }
+}
+
+.btn{ margin-right:3px;}
+
+.layui-layer-btn .layui-layer-btn0{ color:#ffffff !important;}
+
+.card .header-title{font-size:1rem;}
+
+.has-success .form-control {border-color: #1ab394}
+.has-warning .form-control {border-color: #f8ac59}
+.has-error .form-control {border-color: #ed5565}
+.has-success .control-label {color: #1ab394}
+.has-warning .control-label {color: #f8ac59}
+.has-error .control-label {color: #ed5565}
+
+.help-block {
+    display: block;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    color: #737373;
+}
+.m-b-none {
+    margin-bottom: 0;
+}
+.has-error .checkbox, .has-error .checkbox-inline, .has-error .control-label, .has-error .help-block, .has-error .radio, .has-error .radio-inline, .has-error.checkbox label, .has-error.checkbox-inline label, .has-error.radio label, .has-error.radio-inline label {
+    color: #a94442;
+}
+

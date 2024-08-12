@@ -1,0 +1,121 @@
+a,.btn-link {color: #56A55E;}
+
+.logo {line-height: 70px;background-color: #ffffff;}
+
+.metismenu{ padding-top:15px;}
+.left-side-menu{ background:none; background-color:#313447;}
+
+.help-box {background-color: #313447;}
+
+.side-nav .side-nav-link{padding: 11px 30px;}
+.side-nav .side-nav-link>span{padding: 4px 0;display:block;}
+
+.side-nav-second-level li a, .side-nav-third-level li a{padding: 4px 20px 4px 58px;}
+.side-nav-second-level li a>span, .side-nav-third-level li a>span{padding: 4px 0 4px 10px;display:block;}
+
+.side-nav-third-level li a{padding: 4px 20px 4px 74px;}
+.side-nav-third-level li a>span{padding:4px 0 4px 10px;display:block;}
+.metismenu li.czLMOn a>span{ background-color:#56A55E; border-radius:4px;}
+
+.side-nav .side-nav-link,
+.side-nav-second-level li a, .side-nav-third-level li a{}
+
+.btn-danger,
+.btn-danger:hover,
+.btn-danger.focus,
+.btn-danger:focus,
+.btn-danger:not(:disabled):not(.disabled).active,
+.btn-danger:not(:disabled):not(.disabled):active,
+.show>.btn-danger.dropdown-toggle,
+.btn-danger:not(:disabled):not(.disabled).active:focus,
+.btn-danger:not(:disabled):not(.disabled):active:focus,
+.show>.btn-danger.dropdown-toggle:focus {
+    color: #fff;
+    background-color: #56A55E;
+    border-color: #56A55E;
+	box-shadow: 0 2px 6px 0 rgba(131,211,163,.5);
+}
+.btn-info,
+.btn-info:hover,
+.btn-info.focus,
+.btn-info:focus,
+.btn-info:not(:disabled):not(.disabled).active,
+.btn-info:not(:disabled):not(.disabled):active,
+.show>.btn-info.dropdown-toggle,
+.btn-info:not(:disabled):not(.disabled).active:focus,
+.btn-info:not(:disabled):not(.disabled):active:focus,
+.show>.btn-info.dropdown-toggle:focus {
+    color: #fff;
+    background-color: #56A55E;
+    border-color: #56A55E;
+	box-shadow: 0 2px 6px 0 rgba(131,211,163,.5);
+}
+.btn-primary,
+.btn-primary:hover,
+.btn-primary.focus,
+.btn-primary:focus,
+.btn-primary:not(:disabled):not(.disabled).active,
+.btn-primary:not(:disabled):not(.disabled):active,
+.show>.btn-primary.dropdown-toggle,
+.btn-primary:not(:disabled):not(.disabled).active:focus,
+.btn-primary:not(:disabled):not(.disabled):active:focus,
+.show>.btn-primary.dropdown-toggle:focus {
+    color: #fff;
+    background-color: #56A55E;
+    border-color: #56A55E;
+	box-shadow: 0 2px 6px 0 rgba(131,211,163,.5);
+}
+.page-item.active .page-link {
+    background-color: #56A55E;
+    border-color: #56A55E;
+}
+
+.btn-red-cz,
+.btn-red-cz:hover,
+.btn-red-cz.focus,
+.btn-red-cz:focus,
+.btn-red-cz:not(:disabled):not(.disabled).active,
+.btn-red-cz:not(:disabled):not(.disabled):active,
+.show>.btn-red-cz.dropdown-toggle,
+.btn-red-cz:not(:disabled):not(.disabled).active:focus,
+.btn-red-cz:not(:disabled):not(.disabled):active:focus,
+.show>.btn-red-cz.dropdown-toggle:focus {
+    color: #fff;
+    background-color: #FF6960;
+    border-color: #FF6960;
+	box-shadow: 0 2px 6px 0 rgba(255,225,223,.5);
+}
+
+.btn-black-cz,
+.btn-black-cz:hover,
+.btn-black-cz.focus,
+.btn-black-cz:focus,
+.btn-black-cz:not(:disabled):not(.disabled).active,
+.btn-black-cz:not(:disabled):not(.disabled):active,
+.show>.btn-black-cz.dropdown-toggle,
+.btn-black-cz:not(:disabled):not(.disabled).active:focus,
+.btn-black-cz:not(:disabled):not(.disabled):active:focus,
+.show>.btn-black-cz.dropdown-toggle:focus {
+    color: #fff;
+    background-color: #313447;
+    border-color: #313447;
+	box-shadow: 0 2px 6px 0 rgba(221,222,232,.5);
+}
+
+.form-control{border-radius: .5rem; background-color:#F9FAFB;}
+.input-daterange input:first-child{border-radius: 5px 0 0 5px!important;}
+.input-daterange input:last-child{border-radius: 0 5px 5px 0!important;}
+.chosen-container-multi .chosen-choices{border-radius: 5px!important;}
+
+.bg-primary-rlf-cz{ background-color:#56A55E !important;}
+
+body.authentication-bg {background-image: url(/assets/images/bg-rlf-skin_black.svg);}
+
+/*-------------------------*/
+
+.nav-tabs-cz{border-bottom: none;}
+.nav-tabs-cz .nav-item.show .nav-link, .nav-tabs-cz .nav-link.active{ background-color:#FF6960; border:1px solid #FF6960; color:#ffffff;border-radius:5px;font-size: 1rem; position:relative; padding-right:30px;}
+.czico-arrow{width: 10px;font-size: 1rem;display: inline-block;color: #000000;font-family: 'Material Design Icons';height: 10px;position:absolute;top:8px;right:15px;}
+.czico-arrow::before {content: "\F142";}
+.nav-tabs-cz .active .czico-arrow{transform: rotate(90deg);color: #fff;top:10px;right:7px;}
+.nav-tabs-cz .nav-link{background-color:#f0f0f0; border:1px solid #cccccc;color:#000000;border-radius:5px;font-size: 1rem; position:relative; padding-right:30px; margin:0 10px 0 0;}
