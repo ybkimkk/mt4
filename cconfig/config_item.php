@@ -1,6 +1,6 @@
 <?php
 $ConfigItem = array(
-	'PayConfig_PayFolder' => array('usdt','selfpay','selfu'),
+	'PayConfig_PayFolder' => array('usdt','selfpay','selfu','moonpay'),
 
 	'System_Menjaga' => 0,
 
