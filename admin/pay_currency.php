@@ -69,6 +69,7 @@ if($Clause == 'getinfo'){
 		'f_fixedEROut'=>$f_fixedEROut,
 		'f_symbolsER'=>$f_symbolsER,
 		'f_erAlgo'=>$f_erAlgo,
+		'channel_type'=>FPostStr('channel_type'),
 	);
 	if($Id <= 0){
 		$sqlFVArr['f_status'] = 1;

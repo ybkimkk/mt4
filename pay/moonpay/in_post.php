@@ -9,7 +9,7 @@ if ($_GET['clause'] == 'topay') {
     $DRInfo = $DB->getDRow("select * from t_inmoney where `payno` = '{$oid}'");
     $DRPay = $DB->getDRow("select a.*,b.f_title,b.f_pa,b.f_ers,b.f_fixedER,b.f_symbolsER,b.f_erAlgo from (select * from t_pay where `Status` = 1 and server_id = '{$DRAdmin['server_id']}' and Id = '{$DRInfo['pay_id']}') a left join t_pay_currency b on a.f_currencyId = b.id");
     $memberInfo = $DB->getDRow("select * from t_member where `id` = '{$DRInfo["member_id"]}'");
-    echo json_encode($memberInfo);
+    $payCurrency = $DB->getDRow("select * from t_pay_currency where `id` = '{$DRInfo["pay_currency_id"]}'");
     if ($DRInfo === null) {
         FJS_AT(L('支付异常,请联系客服'), '?');
     }
@@ -17,7 +17,7 @@ if ($_GET['clause'] == 'topay') {
     $payInfo = [
         "merchantNo" => $DRPay["PayKey"],            //商户号
         "orderNo" => $oid,                           //order no
-        "channelType" => 1,                         //币种
+        "channelType" => $payCurrency['channel_type'],                         //币种
         "amount" => $DRInfo['number'],              //金额
         "timestamp" => $DRInfo['create_time'],      //时间搓
         "extra" => [
@@ -38,7 +38,8 @@ if ($_GET['clause'] == 'topay') {
         $DB->getDRow("update t_inmoney set `serialno` = '{$result['pOrderNo']}' where `payno` = '{$oid}'");
         FRedirect($result['data']['payUrl']);
     } else {
-        FJS_AT(L('获取支付失败'), '?');
+        loginfo($PayCode, $PayCode . " result has error ===============>" . json_encode($result));
+        FJS_AT(L('获取支付失败'), "?clause=step2&oid={$oid}");
     }
 
 }
