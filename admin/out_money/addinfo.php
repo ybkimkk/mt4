@@ -63,7 +63,7 @@ if(!$DRChk){
 													}
 													echo '<div class="radio radio-info radio-inline">
                                                             <input type="radio" feePre="' , $val['f_fee'] , '" f_erAlgo="' , $val['f_erAlgo'] , '" f_symbolsER="' , $val['f_symbolsER'] , '" f_fixedEROut="' , $val['f_fixedEROut'] , '" f_ers="' , $val['f_ers'] , '" f_pa="' , $val['f_pa'] , '" f_title="' , $val['f_title'] , '" id="inlineRadio_' , $val['PayCode'] , '" numberlist="' , $val['number_rmb'] , '"  value="' , $val['Id'] , '" rel="' , $val['Id'] , '" lang="' , $val['lang'] , '" maxpay="' , $val['maxpaynumber'] , '" name="outmoneytype"  role="' , $val['access_group'] , '">
-                                                            <label for="inlineRadio_' , $val['PayCode'] , '" class="ttt">（' , $val['f_title'] , ' ' , $val['f_pa'] , '），' , L('渠道') , '：' , L($val['PayName']) , '</label>
+                                                            <label for="inlineRadio_' , $val['PayCode'] , '" class="ttt">（' , trim($val['f_title'],"_in") , ' ' , $val['f_pa'] , '），' , L('渠道') , '：' , L($val['PayName']) , '</label>
                                                         </div>';
 												}
 												

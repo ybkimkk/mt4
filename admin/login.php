@@ -93,12 +93,12 @@ if ($Clause == 'chklogin') {
                     </div>
 
                     <div class="card-body p-4">
-
                         <div class="text-center w-75 m-auto">
                             <h4 class="text-dark-50 text-center mt-0 font-weight-bold"><?php echo L('登陆'); ?></h4>
                             <!--<p class="text-muted mb-4">
                             <?php
                             $ci = 0;
+
                             foreach ($LangNameList['list'] as $key => $val) {
                                 if ($ci > 0) {
                                     echo '&nbsp; | &nbsp;';
@@ -119,7 +119,11 @@ if ($Clause == 'chklogin') {
                                      style="right:26px;">
                                     <?php
                                     foreach ($LangNameList['list'] as $key => $val) {
-                                        echo '<a href="set_lang.php?lang=', $key, '" class="dropdown-item notify-item"><span class="align-middle">', $val['title'], '</span></a>';
+                                        if ($key === 'zh-vn') {
+                                            echo '<a href="https://trader.am-broker.com/admin/login.php" class="dropdown-item notify-item"><span class="align-middle">', $val['title'], '</span></a>';
+                                        } else {
+                                            echo '<a href="set_lang.php?lang=', $key, '" class="dropdown-item notify-item"><span class="align-middle">', $val['title'], '</span></a>';
+                                        }
                                     }
                                     ?>
                                 </div>
@@ -171,7 +175,6 @@ if ($Clause == 'chklogin') {
                     </div> <!-- end card-body -->
                 </div>
                 <!-- end card -->
-
 
                 <!-- end row -->
 

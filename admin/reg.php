@@ -442,7 +442,11 @@ $reg_prov = $DB->getDTable("select * from `t_article` where f_key = 'reg_prov' a
                                      style="right:26px;">
                                     <?php
                                     foreach ($LangNameList['list'] as $key => $val) {
-                                        echo '<a href="set_lang.php?lang=', $key, '" class="dropdown-item notify-item"><span class="align-middle">', $val['title'], '</span></a>';
+                                        if ($key === 'zh-vn') {
+                                            echo '<a href="https://trader.am-broker.com/admin/reg.php" class="dropdown-item notify-item"><span class="align-middle">', $val['title'], '</span></a>';
+                                        } else {
+                                            echo '<a href="set_lang.php?lang=', $key, '" class="dropdown-item notify-item"><span class="align-middle">', $val['title'], '</span></a>';
+                                        }
                                     }
                                     ?>
                                 </div>

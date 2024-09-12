@@ -149,7 +149,7 @@ require_once('footer.php');
     $(document).on("click", "input[name='inmoneytype']", function () {
         //$("input[name='inmoneytype']").click(function(){
         var _this = $(this);
-        $('.pay_pa').html(' (' + _this.attr('f_title') + ' ' + _this.attr('f_pa') + ')');
+        $('.pay_pa').html(' (' + _this.attr('f_pa') + ')');
 
         calInMoney();
     });

@@ -300,6 +300,7 @@ $adminCConfig = array(
 //读取数据库中的配置
 //查询默认的所有配置
 $configArr = $DB->getDTable("select * from `t_config` where `status` = 1 order by sort desc");
+
 $czUConfig = array();
 foreach ($configArr as $k => $v) {
 	$czUConfig[$v['name']] = $v['value'];
